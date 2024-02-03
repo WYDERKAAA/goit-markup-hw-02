@@ -1,3 +1,11 @@
 body {
     font-family: "Roboto", sans-serif;
 }
+
+/* syles.css*/
+@import "modern-normalize/modern-normalize.css";
+
+/* Dodatkowe style dla Portfolio */
+body {
+    /*        */
+}
