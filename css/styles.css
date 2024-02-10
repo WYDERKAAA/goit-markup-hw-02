@@ -41,6 +41,19 @@
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
+.main-header-text {
+    color: var(--NAVY-BLUE, #2e2f42);
+    text-align: left;
+
+    /* Header 2 */
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
 
 body {
     font-family: "Roboto", "Raleway", "Montserrat", "Open Sans", "Arial",
@@ -82,7 +95,7 @@ body {
 .names {
     color: var(--NAVY-BLUE, #2e2f42);
     text-align: left;
-    /* Header 3 */
+    /* Header 2 */
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
@@ -112,4 +125,14 @@ body {
     justify-content: center;
     align-items: center;
     gap: 32px;
+}
+.portfolio-offer {
+    display: flex;
+    width: 360px;
+    height: 420px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background: var(--WHITE, #fff);
 }
