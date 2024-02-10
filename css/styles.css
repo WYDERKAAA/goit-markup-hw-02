@@ -1,12 +1,10 @@
-.menu-nav {
-    color: var(--NAVY-BLUE, #2e2f42);
-    /* Body Medium */
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.32px;
+.link {
+    color: orange;
+}
+
+.link:focus,
+.link:active,
+.link:hover {
 }
 
 .top-line {
@@ -127,12 +125,8 @@ body {
     gap: 32px;
 }
 .portfolio-offer {
-    display: flex;
-    width: 360px;
-    height: 420px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    margin-bottom: 10px;
+    align-items: normal;
     flex-shrink: 0;
     background: var(--WHITE, #fff);
 }
