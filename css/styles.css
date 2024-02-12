@@ -12,14 +12,15 @@
     text-decoration: none;
 }
 
-.link:focus
+.navigation 
 .link:active
-.link:hover {
-    color: var(--highlights);
+{color: #404bbf;}
 
-}
+.navigation 
+.link:hover 
+{color: #404bbf;}
 
-.navigation {
+.navigation .link {
     color: #2e2f42;
      font-size: 16px;
      font-weight: 500;
@@ -28,25 +29,18 @@
      text-decoration: none;
 }
 
-.contact {
+.contact .link {
     color: #2e2f42;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
 }
-.top-line {
-    width: 1440px;
-    height: 72px;
- flex-shrink: 0;
- background: linear-gradient(0deg, #E7E9FC, #E7E9FC),
-linear-gradient(0deg, #FFFFFF, #FFFFFF);
-background: var(--WHITE, #fff);
-}
+
 .main-button {
     cursor: pointer;
     
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
 
@@ -67,9 +61,8 @@ background: var(--WHITE, #fff);
 }
 
 .logo {
-    font-family: "Raleway";
-    color: var(--logo);
-    display: inline-flex;
+    font-family: "Raleway", sans-serif;
+    color: #4d5ae5;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -77,10 +70,11 @@ background: var(--WHITE, #fff);
     text-transform: uppercase;
     text-decoration: none;
 }
+
 .web {
     color: var(--highlights);
 
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
 
     font-weight: 700;
@@ -88,19 +82,25 @@ background: var(--WHITE, #fff);
     letter-spacing: 0.03px;
     text-transform: uppercase;
 }
+
+.logo .web {
+color: #2e2f42;
+
+}
+
 .main-header-text {
-    background: #FFFFFF;
-font-size: 45px;
+    color: #FFFFFF;
+font-size: 56px;
 font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
-text-align: center;
+
 
     
 }
 
 body {
-    font-family: "Roboto", "sans-serif";
+    font-family: "Roboto",sans-serif;
     background-color: #FFFFFF ;
     color:#434455;
     font-size: 16px;
@@ -119,9 +119,9 @@ body {
     color: #2e2f42;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.11;
+    line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
+
     text-transform: capitalize;
 }
 .header-lists {
@@ -137,7 +137,7 @@ ul p {
     color: #434455;
     font-size: 16px;
     letter-spacing: 0.02em;
-    text-align: center;
+    
 }
 
 .our-team-background {
