@@ -130,14 +130,38 @@ body{
     text-transform:capitalize;
     text-align:center;
 }
+.header-titles2{
+    color:#2e2f42;
+    font-size:20px;
+    font-weight:500;
+    line-height:1.2;
+    letter-spacing:0.02em;
+   
+}
+.header-titles3{
+    color:#2e2f42;
+    font-size:20px;
+    font-weight:500;
+    line-height:1.2;
+    letter-spacing:0.02em;
+    background-color:#FFFFFF;
+}
+.header-titles4{
+    color:#2e2f42;
+    font-size:20px;
+    font-weight:500;
+    line-height:1.2;
+    letter-spacing:0.02em;
+    
+}
 .header-lists ul p{
     color:#2e2f42;  
     font-size:20px;
     font-weight:500;   
     line-height: 1.2;
     letter-spacing: 0.02em;
-    background-color:#FFFFFF;
-    
+    background-color:#FFFFFF;   
+
 }
 ul p {
     color:#434455;
