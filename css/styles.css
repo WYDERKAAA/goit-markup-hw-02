@@ -7,13 +7,13 @@
 
 }
 
-.a{
-    
-text-decoration:none;  /* Usunięcie domyślnego podkreślenia */
+.a{  
+color: #404bbf;
+text-decoration:none;
 }
 
 a:visited {
-    
+
     color:#404bbf; /* Kolor po kliknięciu */
 }
 .navigation 
@@ -36,8 +36,10 @@ a:visited {
      text-decoration: none;
 }
 .font-normal{
-    font-style: normal;
-    color:#434455
+    
+font-style: normal;
+    
+color:#434455;
 }
 .contact .link{
     
@@ -87,7 +89,7 @@ a:visited {
     font-size:18px;
     font-weight:700;
     line-height:1.17;
-    letter-spacing:0.03px;
+    letter-spacing:0.03ex;
     text-transform:uppercase;
     text-decoration:none;
 }
@@ -106,7 +108,7 @@ text-align: center;
 }
 body{
     font-family: "Roboto",sans-serif;
-    background-color: #FFFFFF ;
+    background-color: #FFFFFF;
     color:#434455;
     font-size: 16px;
     line-height: 1.5;
@@ -138,6 +140,8 @@ body{
     letter-spacing:0.02em;
    
 }
+
+
 .header-titles3{
     color:#2e2f42;
     font-size:20px;
@@ -161,17 +165,21 @@ body{
     line-height: 1.2;
     letter-spacing: 0.02em;
     background-color:#FFFFFF;   
+} 
 
-}
-ul p {
+p {
     color:#434455;
     font-size:16px;
     letter-spacing:0.02em;
     line-height: 1.5;
     text-align: center;
     background-color:#FFFFFF;
-    
+       
 }
+
+.a-link {text-decoration: none;
+}
+
 .team-section{
     background-color:#F4F4Fd;
 }
@@ -190,7 +198,7 @@ ul p {
 .logo-white {
     
     color:#f4f4fd;
-    letter-spacing:0.03px;
+    
 }
 .bright-text{
     color:#f4f4fd;
