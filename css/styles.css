@@ -110,7 +110,6 @@ ul {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    text-align: center;
 }
 .header-titles2 {
     color: #2e2f42;
@@ -122,10 +121,12 @@ ul {
 
 .header-titles3 {
     color: #2e2f42;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
 }
 .header-titles4 {
     color: #2e2f42;
@@ -134,7 +135,7 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-.p {
+p {
     color: #434455;
     font-size: 16px;
     letter-spacing: 0.02em;
@@ -179,7 +180,7 @@ a.link:active {
     color: #404bbf;
 }
 .team-section {
-    background-color: #ffffff;
+    background-color: #f4f4fd;
 }
 .team-background {
     background-color: #ffffff;
