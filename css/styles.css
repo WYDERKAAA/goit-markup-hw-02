@@ -1,3 +1,12 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    background-color: #ffffff;
+}
+
 .a {
     color: #404bbf;
     text-decoration: none;
@@ -36,17 +45,11 @@ a:visited {
 }
 .main-button {
     cursor: pointer;
-
     font-family: "Roboto", sans-serif;
-
     font-size: 16px;
-
     font-weight: 500;
-
     letter-spacing: 0.04em;
-
     line-height: 1.5;
-
     background-color: #4d5ae5;
     color: #fff;
 }
@@ -57,6 +60,9 @@ a:visited {
     background-color: #404bbf;
 }
 
+.main-button:focus {
+    background-color: #404bbf;
+}
 .logo {
     font-family: "Raleway", sans-serif;
     color: #4d5ae5;
@@ -68,36 +74,25 @@ a:visited {
     text-decoration: none;
 }
 
-.web {
-    color: var(--highlights);
-    font-family: "Raleway", sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03ex;
-    text-transform: uppercase;
-    text-decoration: none;
+.logo-dark {
+    color: #2e2f42;
 }
-
+.web-noclolor {
+}
+.studio {
+    color: #2e2f42;
+}
 .logo .web {
     color: #2e2f42;
 }
 .main-header-text {
     color: #ffffff;
     font-size: 56px;
-    font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
 }
-body {
-    font-family: "Roboto", sans-serif;
-    background-color: #ffffff;
-    color: #434455;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
+
 ul {
     list-style-type: none;
 }
@@ -131,7 +126,6 @@ ul {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    background-color: #ffffff;
 }
 .header-titles4 {
     color: #2e2f42;
@@ -170,18 +164,23 @@ ul {
     letter-spacing: 0.02em;
     line-height: 1.5;
 }
+.li-section3 {
+    background-color: #ffffff;
+}
 .a-link {
     text-decoration: none;
     color: #434455;
 }
-a.link:hover {
+
+a.link:hover,
+a.link:focus {
     color: #404bbf;
 }
 a.link:active {
     color: #404bbf;
 }
 .team-section {
-    background-color: #f4f4fd;
+    background-color: #ffffff;
 }
 .team-background {
     background-color: #ffffff;
