@@ -6,21 +6,8 @@ body {
     letter-spacing: 0.02em;
     background-color: #ffffff;
 }
-
-.a {
-    color: #404bbf;
-    text-decoration: none;
-}
-
-a:visited {
-    color: #404bbf; /* Kolor po kliknięciu */
-}
-.navigation .link:active {
-    color: #404bbf;
-}
-
-.navigation .link:hover {
-    color: #404bbf;
+ul {
+    list-style-type: none;
 }
 .navigation .link {
     color: #2e2f42;
@@ -30,10 +17,36 @@ a:visited {
     letter-spacing: 0.02em;
     text-decoration: none;
 }
-.font-normal {
-    font-style: normal;
+.navigation .link:hover {
+    color: #404bbf;
+}
 
+.navigation .link:active {
+    color: #404bbf;
+}
+.address-links .a-link {
+    font-style: normal;
     color: #434455;
+    text-decoration: none;
+}
+.a-link {
+    text-decoration: none;
+    color: #434455;
+}
+.a-link:hover {
+    color: #404bbf;
+}
+
+.a-link:focus {
+    color: #404bbf;
+}
+
+.a-link:active {
+    color: #404bbf;
+}
+
+.hero-img {
+    background-color: #2e2f42;
 }
 .contact .link {
     font-style: normal;
@@ -73,12 +86,10 @@ a:visited {
     text-transform: uppercase;
     text-decoration: none;
 }
-
 .logo-dark {
     color: #2e2f42;
 }
-.web-noclolor {
-}
+
 .studio {
     color: #2e2f42;
 }
@@ -92,17 +103,6 @@ a:visited {
     letter-spacing: 0.02em;
     text-align: center;
 }
-
-ul {
-    list-style-type: none;
-}
-.hero-img {
-    background-color: #2e2f42;
-}
-.job-title-background {
-    background: var(--CLOUD, #f4f4fd);
-}
-
 .header-titles {
     color: #2e2f42;
     font-size: 36px;
@@ -111,7 +111,7 @@ ul {
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
-.header-titles2 {
+.header-title-names {
     color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
@@ -135,13 +135,6 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-p {
-    color: #434455;
-    font-size: 16px;
-    letter-spacing: 0.02em;
-    line-height: 1.5;
-    background-color: #ffffff;
-}
 
 .p-section2 {
     color: #434455;
@@ -151,7 +144,7 @@ p {
     background-color: #ffffff;
 }
 
-.p-section3 {
+.header-text {
     color: #434455;
     font-size: 16px;
     letter-spacing: 0.02em;
@@ -164,26 +157,14 @@ p {
     letter-spacing: 0.02em;
     line-height: 1.5;
 }
-.li-section3 {
+.team-list-background-color {
     background-color: #ffffff;
-}
-.a-link {
-    text-decoration: none;
-    color: #434455;
-}
-
-a.link:hover,
-a.link:focus {
-    color: #404bbf;
-}
-a.link:active {
-    color: #404bbf;
 }
 .team-section {
     background-color: #f4f4fd;
 }
 .team-background {
-    background-color: #ffffff;
+    background-color: #f4f4fd;
 }
 
 .footer-background {
@@ -192,6 +173,7 @@ a.link:active {
 .logo-white {
     color: #f4f4fd;
 }
-.bright-text {
+.footer-bright-text {
     color: #f4f4fd;
+    background-color: #2e2f42;
 }
