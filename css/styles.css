@@ -1,15 +1,38 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: #434455;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+
     background-color: #ffffff;
 }
+
+/* header */
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #4d5ae5;
+}
+.logo-dark {
+    color: #2e2f42;
+}
+
+.logo {
+    color: #4d5ae5;
+}
+
+/* global bulleted list */
+
 ul {
     list-style-type: none;
 }
-.navigation .link {
+
+/* navigation links */
+
+.navigation-links .link {
     color: #2e2f42;
     font-size: 16px;
     font-weight: 500;
@@ -17,20 +40,26 @@ ul {
     letter-spacing: 0.02em;
     text-decoration: none;
 }
-.navigation .link:hover {
+
+.navigation-links .link:hover {
     color: #404bbf;
 }
 
-.navigation .link:active {
+.navigation-links .link:active {
     color: #404bbf;
 }
+
+/* address list */
+
 .address-links .a-link {
     font-style: normal;
-    color: #434455;
     text-decoration: none;
 }
+
 .a-link {
-    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 .a-link:hover {
@@ -48,99 +77,77 @@ ul {
 .hero-img {
     background-color: #2e2f42;
 }
-.contact .link {
-    font-style: normal;
-    color: #2e2f42;
 
-    font-size: 16px;
-    line-height: 1.5;
+/* hero image & main button */
+
+.hero-header-text {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
     letter-spacing: 0.02em;
-}
-.main-button {
-    cursor: pointer;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    letter-spacing: 0.04em;
-    line-height: 1.5;
-    background-color: #4d5ae5;
-    color: #fff;
-}
-.main-button:hover {
-    background-color: #404bbf;
-}
-.main-button:active {
-    background-color: #404bbf;
+    color: #ffffff;
 }
 
+.main-button {
+    background-color: #4d5ae5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+    color: #fff;
+    cursor: pointer;
+}
+
+.main-button:hover,
+.main-button:active,
 .main-button:focus {
     background-color: #404bbf;
 }
-.logo {
-    font-family: "Raleway", sans-serif;
-    color: #4d5ae5;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-.logo-dark {
-    color: #2e2f42;
-}
 
-.studio {
-    color: #2e2f42;
-}
-.logo .web {
-    color: #2e2f42;
-}
-.main-header-text {
-    color: #ffffff;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    text-align: center;
-}
-.header-titles {
-    color: #2e2f42;
-    font-size: 36px;
+/*section four features starts here */
+
+.main-header-title {
     font-weight: 700;
+    font-size: 36px;
     line-height: 1.11;
+    /* no text allign:center added yet */
     letter-spacing: 0.02em;
+    color: #2e2f42;
     text-transform: capitalize;
 }
-.header-title-names {
-    color: #2e2f42;
-    font-size: 20px;
+
+.header-title {
     font-weight: 500;
+    font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
-.header-titles3 {
-    color: #2e2f42;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    text-align: center;
-}
-.header-titles4 {
-    color: #2e2f42;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
-.p-section2 {
-    color: #434455;
+.p-section-features {
     font-size: 16px;
-    letter-spacing: 0.02em;
     line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* section our team */
+
+.team-background {
+    background-color: #f4f4fd;
+}
+
+.header-team-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.team-card-background {
     background-color: #ffffff;
 }
 
@@ -157,22 +164,14 @@ ul {
     letter-spacing: 0.02em;
     line-height: 1.5;
 }
-.team-list-background-color {
-    background-color: #ffffff;
-}
-.team-section {
-    background-color: #f4f4fd;
-}
-.team-background {
-    background-color: #f4f4fd;
-}
-
 .footer-background {
     background-color: #2e2f42;
 }
+
 .logo-white {
     color: #f4f4fd;
 }
+
 .footer-bright-text {
     color: #f4f4fd;
     background-color: #2e2f42;
