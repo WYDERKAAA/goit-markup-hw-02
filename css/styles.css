@@ -51,8 +51,7 @@ ul {
 
 /* address list */
 
-.address-links .a-link {
-    text-decoration: none;
+.address-links {
     font-style: normal;
 }
 
@@ -61,7 +60,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    font-style: normal;
+    text-decoration: none;
 }
 .link:hover,
 .a-link:hover {
