@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
-
+    color: #434455;
     background-color: #ffffff;
 }
 
@@ -126,7 +126,10 @@ ul {
     color: #2e2f42;
 }
 
-.p-section-features {
+.team-card-background {
+    background-color: #ffffff;
+}
+.p-section-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -139,31 +142,12 @@ ul {
     background-color: #f4f4fd;
 }
 
-.header-team-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
 .team-card-background {
     background-color: #ffffff;
 }
 
-.header-text {
-    color: #434455;
-    font-size: 16px;
-    letter-spacing: 0.02em;
-    line-height: 1.5;
-}
+/* footer section */
 
-.p-section4 {
-    color: #434455;
-    font-size: 16px;
-    letter-spacing: 0.02em;
-    line-height: 1.5;
-}
 .footer-background {
     background-color: #2e2f42;
 }
