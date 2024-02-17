@@ -52,7 +52,6 @@ ul {
 /* address list */
 
 .address-links .a-link {
-    font-style: normal;
     text-decoration: none;
 }
 
@@ -61,15 +60,17 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    font-style: normal;
 }
+.link:hover,
 .a-link:hover {
     color: #404bbf;
 }
-
+.a-link:focus,
 .a-link:focus {
     color: #404bbf;
 }
-
+.link:active,
 .a-link:active {
     color: #404bbf;
 }
@@ -112,7 +113,7 @@ ul {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    /* no text allign:center added yet */
+    text-align: center;
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-transform: capitalize;
@@ -157,6 +158,8 @@ ul {
 }
 
 .footer-bright-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #f4f4fd;
     background-color: #2e2f42;
 }
