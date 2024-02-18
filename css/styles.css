@@ -1,7 +1,15 @@
+.container {
+    width: 1158px;
+    margin: 0 auto;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
+    /*NOWE USTAWIENIA*/
+    margin: auto;
+    padding: auto;
 }
 
 /* header */
@@ -78,7 +86,11 @@ ul {
 .hero-img {
     background-color: #2e2f42;
 }
-
+.hero-grafika {
+    width: 1440px;
+    height: 600px;
+    top: 72px;
+}
 /* hero image & main button */
 
 .hero-header-text {
