@@ -1,17 +1,8 @@
-.container {
-    width: 1158px;
-    margin: 0 auto;
-}
 
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
-    /*NOWE USTAWIENIA*/
-    margin: auto;
-    padding: auto;
-}
-
 /* header */
 
 .logo {
